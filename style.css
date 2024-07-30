@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 *{margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
@@ -13,8 +7,11 @@
     }
    
    
-   .header-container{display: flex;
-       justify-content: space-between;}
+   .header-container
+       {display: flex;
+       justify-content: space-between;
+       width: 1583px;
+       height: 154px; ;}
    
    
    
@@ -23,27 +20,31 @@
        margin-top: 50px;
        margin-bottom: 48px;
        margin-left: 150px;
+
        
      }
    
      .btn{
-       margin-top: 32px;
-       margin-right: 150px;
-       padding: 23px 24px;
-       text-align: center;
-       font-weight: 350;
-       color: #1E1E1E; 
-       width: 244px;
-       height: 69px;
-       background-color: #ffffffd5;
-       border-radius: 8px;
-      
+        margin-top: 32px;
+        margin-right: 150px;
+        padding: 23px 24px;
+        text-align: center;
+        font-weight: 350;
+        color: #1E1E1E; 
+        width: 244px;
+        height: 69px;
+        background-color: #ffffffd5;
+        border-radius: 8px;
+       
      }
    
    
      .first-container{
            background-image: url(assets/Hero-bg.png);
            background-repeat: no-repeat; 
+           width: 1440px;
+           height: 652px;
+           
          
    
    }
@@ -61,8 +62,7 @@
        flex-direction: column;
    }
    
-   .image
-   {width: 241px;
+   .image-first  {width: 241px;
    height: 240px;
    
    }
@@ -95,222 +95,506 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                                       /* 2nd page starts */              
 
 
-                   .second-page {
-                    width: 1140px;
-                    height: 1411px;
-                    border-radius: 16px;
                
-                   }
-   
-                  .second-container {
-                    width: 946px;
-                    height: 1251px;
-                  }
-   
-                  .sec-txt-container {}
-   
-                           .sec-txt-container > h1 
-                           { height: 37px;
-                            text-align:center;
-                            margin-bottom: 24px;
-                            font-weight: 100;}
-                           
-                           
-   
-                           .sec-txt-container > p{
-                            height: 52px; 
-                            text-align: center;}
-   
-                   .two-one-container {}
-                   
-                       .two-one-txt> h2{}
-   
-                       .two-one-txt >p{}
-   
-                       .two-one-txt > button{}
-   
-                   .image-two{}
-   
-                   .two-two-container{}
-                   
-                       .two-two-txt> h2{}
-   
-                       .two-two-txt >p{}
-   
-                       .two-two-txt > button{}
-   
-                   .image-trd{}
-   
-                   .two-three-container{}
-                   
-                       .two-three-txt> h2{}
-   
-                       .two-three-txt >p{}
-   
-                       .two-three-txt > button{}
-   
-                   .image-frth{}
-   
-                   .sec-last-container{}
-   
-                   .sec-last-container > h1 {}
-   
-                   .sec-last-container > p {}
-   
-   
-                   /* Video container....... */
-   
-   
-   
-                    .video-container{}
-   
-                       .vdo-sub-container{}
-   
-   
-                       /* 3rd page............. */
-   
-   
-                    .third-page{}
-   
-                   .trd-sub-container{}
-   
-                   .trd-txt-con{}
-   
-                       .trd-txt-con >h3 {}
-   
-                       .trd-txt-con >p {}
-   
-   
-                   .lang-container{}
-   
-                   .html-con{}
-   
-                       .html-con >img {}
-   
-                       .html-con >h4 {}
-   
-                       .html-con >p {}
-   
-                       .html-con > a {}
-   
-   
-                   .css-con{}
-   
-                       .css-con >img {}
-   
-                       .css-con >h4 {}
-   
-                       .css-con >p {}
-   
-                       .css-con > a {}
-   
-   
-                   .js-con{}
-   
-                       .js-con >img {}
-   
-                       .js-con >h4 {}
-   
-                       .js-con >p {}
-   
-                       .js-con > a {}
-   
-                   .3rd-text-con{}
-   
-                           .3rd-text-con > h3 {}
-                           
-                           .3rd-text-con > p {}
-   
-                   
-                   .program-container{}
-                           
-                   .reactjs-con{}
-   
-                            .reactjs-con >img {}
-   
-                            .reactjs-con > h4 {}
-   
-                            .reactjs-con > p{}
-   
-                            .reactjs-con > a{}
-   
-                   
-                   .nodejs-con{}
-   
-                            .nodejs-con >img {}
-   
-                            .nodejs-con > h4 {}
-   
-                            .nodejs-con > p{}
-   
-                            .nodejs-con > a{}
-   
-   
-                    .mongodb-con{}
-   
-                            .mongodb-con >img {}
-   
-                            .mongodb-con > h4 {}
-   
-                            .mongodb-con > p{}
-   
-                            .mongodb-con > a{}
-               
-   
-                   .page-support{}
-   
-                   .txt-support{}
-   
-                           .txt-support > input {}
-   
-                            .txt-support > button {}
-   
-                   .txt{}
-   
-                           .txt > h3 {}
-   
-                           .txt > p {}
-                   
-                   .footer-part{}
-   
-                   .last-part{}
-   
-                       .last-part > p {}
-   
-                       .last-part > img {}
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-       
+
+                                              .second-container
+                                              {width: 1140px;
+                                              height: 1411px;
+                                              border-radius: 16px;
+                                              background-color: #FAFAFB;
+                                              margin: 74px 139px 49px 161px;
+                                              padding: 20px 20px;
+                                             
+                                              
+                                              
+                                              }
+
+                                              
+                                               
+                                                      .second-page
+                                                      {
+                                                        width: 946px;
+                                                        height: 1251px;
+                                                        display: flex;
+                                                         flex-wrap: wrap;
+                                                       
+                                                       
+                                                      } 
+
+                                              
+                                                      .second-txt
+                                                      {
+                                                        width: 852px;
+                                                        height: 113px;
+                                                        margin: 0px 47px 48px 47px;
+                                                      }
+ 
+                                                                        
+                                                        /* Second page's text "why web development" */
+                                                       
+                                                                  .second-txt > h1
+                                                                  {
+                                                                    width: 852px;
+                                                                    height: 37px;
+                                                                    font-weight: 800;
+                                                                    text-align: center;
+                                                                    margin-bottom: 24px;
+                                                                  }
+
+
+                                                                  .second-txt > p 
+                                                                  {
+                                                                    width: 852px;
+                                                                    height: 52px;
+                                                                    color: #7E8088;
+                                                                    text-align: center;
+                                                                  }
+
+                                                            
+                                              .lab-container
+                                              {
+                                                width: 946px;
+                                                height: 1090px;
+                                                margin-left: 97px;
+                                                margin-right: 97px;
+                                                margin-bottom: 80px;
+                                              }
+
+
+                                                    
+                                              .first-lab 
+                                              {
+                                                width: 946px;
+                                                height: 354px;
+                                                background-color: white;
+                                                border-radius: 16px;
+                                                margin-bottom: 32px;
+                                               
+                                              } 
+
+                                                        .first-lab-holder
+                                                        {
+                                                          width: 850px;
+                                                          height: 258px;
+                                                          margin: 48px;
+                                                          display: flex;
+                                                          justify-content: space-between;
+                                                        }
+                                                        .first-lab-txt-holder
+                                                        {
+                                                          width: 477px;
+                                                          height: 219px;
+                                                          margin-top: 19.5px;
+                                                          margin-bottom: 19.5px;
+                                                        }
+
+                                              .first-lab-txt 
+                                              {
+                                                width: 477px;
+                                                height: 140px;
+                                                margin: 0px 0px 32px 0px;
+                                                
+                                            
+                                              }
+                                              
+                                              .first-lab-txt > h2
+                                              {
+                                                width: 390px;
+                                                height: 72px;
+                                                color: #555A63;
+                                                margin: 0px 78px 16px 0px; 
+                                                             
+
+                                              }
+                                              .first-lab-txt > p
+                                              {
+                                                width: 468px;
+                                                height: 52px;
+                                                color: #555963;
+                                               
+                                
+                                              }
+                                              
+                                              .image-second
+                                              {
+                                                width: 275px;
+                                                height: 240px;
+                                              }
+
+
+
+                                              .sec-lab 
+                                              {
+                                                width: 946px;
+                                                height: 336px;
+                                                background-color: white;
+                                                border-radius: 16px;
+                                                margin-bottom: 32px;
+
+                                              } 
+
+                                                        .sec-lab-holder
+                                                        {
+                                                          width: 850px;
+                                                          height: 240px;
+                                                          margin: 48px;
+                                                          display: flex;
+                                                          justify-content: space-between;
+                                                          flex-direction: row-reverse;
+
+                                                        }
+
+                                                        ..sec-lab-txt-holder
+                                                        { 
+                                                          width: 477px;
+                                                          height: 219px;
+                                                          margin: 10.5px 101px 10.5px 272px;
+
+                                                      
+
+                                                        }
+                                                        .sec-lab-txt
+                                                        {
+                                                          width: 477px;
+                                                          height: 140px;
+                                                          margin-bottom: 32px;
+
+                                                        }
+
+                                              .sec-lab-txt > h2
+                                              {
+                                                width: 477px;
+                                                height: 72px;
+                                                color: #555A63;
+                                                margin-bottom: 16px; 
+                                              }
+                                              .sec-lab-txt > p
+                                              {
+                                                width: 468px;
+                                                height: 52px;
+                                                color: #555963;
+                                               
+                                              }
+                                             
+                                              .image-third
+                                              {
+                                                width: 240px;
+                                                height: 240px;
+                                                margin-right: 32px;
+                                                
+                                              }
+
+
+                                              .third-lab
+                                              
+                                              {
+                                                width: 946px;
+                                                height: 336px;
+                                                background-color: white;
+                                                border-radius: 16px;
+                                                margin-bottom: 32px;
+                                              } 
+
+                                              .third-lab-holder
+                                              {
+                                                width: 850px;
+                                                height: 240px;
+                                                margin: 48px;
+                                                display: flex;
+                                                justify-content: space-between;
+                                               
+                                              }
+
+                                              .third-lab-txt-holder
+                                              {
+                                                          width: 477px;
+                                                          height: 219px;
+                                                          margin: 10.5px 373px 10.5px 0px;
+                                              }
+
+                                              .trd-lab-txt
+                                              {
+                                                          width: 477px;
+                                                          height: 140px;
+                                                          margin-bottom: 40px;
+                                              }
+
+                                              .trd-lab-txt > h2
+                                              {
+                                                width: 390px;
+                                                height: 72px;
+                                                color: #555A63;
+                                                margin-bottom: 16px; 
+
+                                              }
+                                              .trd-lab-txt > p
+                                              {
+                                                width: 468px;
+                                                height: 52px;
+                                                color: #555963;
+                                               
+
+                                              }
+                                             
+                                              .image-forth{}
+
+                                              .lab-btn
+                                              {
+                                                padding: 12px 20px;
+                                                text-align: center;
+                                                font-weight: 800;
+                                                color: #555A63; 
+                                                background-color: #ffffffd5;
+                                                border: 1px black solid;
+                                                
+                                                
+                                            
+                                              }
+
+                                              
+                                                      /* video page starts */     
+
+
+                                                    .video-container{}
+
+                                                      /* My Inspiration */
+
+
+                                                    .inspiration-txt {}
+
+                                                       .inspiration-txt > h1 {}
+
+                                                       .inspiration-txt > p {}
+
+                                                    
+                                                    .main-video{}
+
+
+                                                    
+
+                                                      /* 3rd page starts */              
+
+
+                                                      .third-container{}
+
+
+
+                                                      /* Designing language */
+
+                                                      .designer{}
+
+                                                      /* My Current Target */
+
+                                                      .designer-txt {}
+
+                                                      .designer-txt > h3 {}
+
+                                                      . .designer-txt > p {}
+
+
+
+                                                      /* HTML CSS and JS */
+
+
+
+                                                      .non-programing{}
+
+
+                                                      /* HTML */
+
+                                                      .html-con{}
+
+                                                      
+                                                      .hyper-text-con{}
+
+                                                      
+                                                      .hyper-text-con > h4 {}
+
+                                                      
+                                                      .hyper-text-con > p {}
+
+                                                      
+                                                      .hyper-text-con >a {}
+
+
+                                                      /* CSS */
+
+
+                                                      .css{}
+
+                                                      
+                                                      .css-con{}
+
+                                                      
+                                                      .css-con > h4 {}
+
+                                                      
+                                                      .css-con > p {}
+
+                                                      
+                                                      .css-con >a {}
+
+
+                                                      /* JS */
+
+                                                      .js{}
+
+                                                      
+                                                      .js-con{}
+
+                                                      
+                                                      .js-con > h4 {}
+
+                                                      
+                                                      .js-con > p {}
+
+                                                      
+                                                      .js-con >a {}
+
+
+
+                                                      /* Structural language */
+
+
+                                                      .structure{}
+
+
+
+                                                      /* My Next Target */
+
+                                                      .txt-structure{}
+
+                                                      .txt-structure > h3 {}
+
+                                                      .txt-structure > p {}
+
+
+                                                      /* Reactjs nodejs mongodb */
+
+
+                                                    .programming{}
+
+
+                                                    /* ReactJS */
+
+                                                    .reactjs{}
+
+                                                    .rjs{}
+
+                                                    .rjs-con{}
+
+                                                    .rjs-con > h4 {}
+
+                                                    .rjs-con > p{}
+
+                                                    .rjs-con > a{}
+
+
+                                                                                            /* NodeJS */
+
+                                                                                            .nodejs{}
+
+                                                                                            .njs{}
+                                        
+                                                                                            .njs-con{}
+                                        
+                                                                                            .njs-con > h4 {}
+                                        
+                                                                                            .njs-con > p{}
+                                        
+                                                                                            .njs-con > a{}
+
+
+
+                                                                /* ReactJS */
+
+
+                                                    .mongodb{}
+
+                                                    .mdb{}
+
+                                                    .mdb-con{}
+
+                                                    .mdb-con > h4 {}
+
+                                                    .mdb-con > p{}
+
+                                                    .mdb-con > a{}
+
+
+
+
+
+
+
+
+
+
+                                                    /*  page support container*/
+
+
+                                                    .support-container{}
+
+                                                    .page-support{}
+
+
+
+                                                    /* I need Support */
+
+                                                    .support-txt{} 
+
+                                                    .support-txt > h3{}
+
+                                                    .support-txt > p{}
+
+
+                                                    /*  Input container */
+
+
+                                                    .input-txt{}
+
+                                                    .inp{}
+
+                                                    .inp-btn{}
+
+
+
+
+                                                    /* footer container */
+
+
+                                                    .footer-part{}
+
+                                                    .last-part{}
+
+                                                    .last-part > p {}
+
+                                                    .fb{}
+
+                                                    .git{}
+
+                                                    .linkedin{}
+
+
+                                        
+
+                                                     
+
+
+
+
+
+                                                      
+
+
+
+
+                                        
+
+
+
 
 
