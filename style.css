@@ -358,19 +358,46 @@
                                                       /* video page starts */     
 
 
-                                                    .video-container{}
+                                                    .video-container
+                                                    {
+                                                      width: 1140px;
+                                                      height: 775px;
+                                                      background-color: white;
+                                                      margin: 49px 152px 151px 148px;
+                                                      
+                                                    }
 
                                                       /* My Inspiration */
 
 
-                                                    .inspiration-txt {}
+                                                    .inspiration-txt {  
+                                                      width: 852px;
+                                                      height: 113px;
+                                                      margin: 0px 144px 48px 144px;}
 
-                                                       .inspiration-txt > h1 {}
+                                                       .inspiration-txt > h1 {  
+                                                        width: 852px;
+                                                        height: 37px;
+                                                        font-weight: 800;
+                                                        text-align: center;
+                                                        margin-bottom: 24px;}
 
-                                                       .inspiration-txt > p {}
+                                                       .inspiration-txt > p {  
+                                                        width: 852px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: center;}
 
                                                     
-                                                    .main-video{}
+                                                    .main-video
+                                                       {}
+
+                                                    .main-video > iframe 
+                                                    {
+                                                      padding: 32px;
+                                                      border: 0.5px #CFD0D3 solid;
+                                                      border-radius: 16px;
+                                                    }
 
 
                                                     
@@ -378,21 +405,51 @@
                                                       /* 3rd page starts */              
 
 
-                                                      .third-container{}
+                                                      .third-container
+                                                      {
+                                                        width: 1140px;
+                                                        height: 1437px;
+                                                        margin: 151px 150px 49px 150px;
+                                                      }
 
 
 
                                                       /* Designing language */
 
-                                                      .designer{}
+                                                      .designer
+                                                      {
+                                                        width: 1140px;
+                                                        height: 460px;
+                                                        margin: 151px 150px 111px 0px;
+                                                        background-color: white;
+                                                      }
 
                                                       /* My Current Target */
 
-                                                      .designer-txt {}
+                                                      .designer-txt 
+                                                      {
+                                                        width: 852px;
+                                                        height: 113px;
+                                                        margin: 0px 97px 48px 97px;
+                                                      }
 
-                                                      .designer-txt > h3 {}
+                                                      .designer-txt > h2
+                                                      {
+                                                        width: 852px;
+                                                        height: 37px;
+                                                        font-weight: 800;
+                                                        text-align: center;
+                                                        margin-bottom: 24px;
+                                                      }
 
-                                                      . .designer-txt > p {}
+                                                      .designer-txt > p 
+                                                      {
+                                                        width: 852px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: center;
+                                                        margin-bottom: 48px;
+                                                      }
 
 
 
@@ -400,76 +457,241 @@
 
 
 
-                                                      .non-programing{}
+                                                      .non-programing
+                                                      {
+                                                        width: 1140px;
+                                                        height: 299px;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        justify-content: space-between;
+                                                      
+
+
+                                                      }
 
 
                                                       /* HTML */
 
-                                                      .html-con{}
+                                                      .html-whole-container
+                                                      {
+                                                        width: 364px;
+                                                        height: 299px;
+                                                        border: 0.5px white solid;
+                                                        border-radius: 16px;
+                                                        background-color: #FFF6F4;
+                                                      }
 
                                                       
-                                                      .hyper-text-con{}
+                                                      .hyper-text-con
+                                                      {
+                                                        width: 284px;
+                                                        height: 219px;
+                                                        margin: 40px;
+                                                      }
+
+
+                                                      .html-con 
+                                                      {
+                                                        width: 284px;
+                                                        height: 139px;
+                                                        margin-top: 24px;
+                                                      
+                                                      }
+
+
+                                                      .html-con > h4 
+                                                      {
+                                                        width: 284px;
+                                                        height: 36px;
+                                                        font-weight: 800;
+                                                        text-align: left;
+
+                                                        margin-bottom: 8px;
+                                                      }
 
                                                       
-                                                      .hyper-text-con > h4 {}
+                                                      .html-con > p 
+                                                      {
+                                                        width: 284px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: left;
+                                                        margin-bottom: 24px;
+                                                      }
 
                                                       
-                                                      .hyper-text-con > p {}
-
-                                                      
-                                                      .hyper-text-con >a {}
+                                                      .html-con >a 
+                                                      {
+                                                        width: 284px;
+                                                        height: 19px;
+                                                        font-weight: 600;
+                                                        color: black;
+                                                        margin-bottom: 40px;
+                                                      }
 
 
                                                       /* CSS */
 
 
-                                                      .css{}
+                                                      .css-whole-container
+                                                      {
+                                                        width: 364px;
+                                                        height: 299px;
+                                                        border: 0.5px white solid;
+                                                        border-radius: 16px;
+                                                        background-color: #F2F6FE;
+                                                      }
 
                                                       
-                                                      .css-con{}
+                                                      .cascade-con
+                                                      {
+                                                       
+                                                        width: 284px;
+                                                        height: 219px;
+                                                        margin: 40px;
+                                                      }
+
+                                                      .css-con
+                                                      {
+                                                        width: 284px;
+                                                        height: 139px;
+                                                        margin-top: 24px;
+                                                      
+                                                      }
+
+
+                                                      .css-con > h4 
+                                                      {
+                                                        width: 284px;
+                                                        height: 36px;
+                                                        font-weight: 800;
+                                                        text-align: left;
+
+                                                        margin-bottom: 8px;
+                                                      }
+                                                      }
 
                                                       
-                                                      .css-con > h4 {}
+                                                      .css-con > p 
+                                                      {
+                                                        width: 284px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: left;
+                                                        margin-bottom: 24px;
+                                                      }
 
                                                       
-                                                      .css-con > p {}
-
-                                                      
-                                                      .css-con >a {}
+                                                      .css-con >a 
+                                                      {
+                                                        width: 284px;
+                                                        height: 19px;
+                                                        font-weight: 600;
+                                                        color: black;
+                                                        margin-bottom: 40px;
+                                                      }
 
 
                                                       /* JS */
 
-                                                      .js{}
+                                                      .js-whole-container
+                                                      {
+                                                        width: 364px;
+                                                        height: 299px;
+                                                        border: 0.5px white solid;
+                                                        border-radius: 16px;
+                                                        background-color: #FFFDF2;
+                                                      }
 
                                                       
-                                                      .js-con{}
+                                                      .javascript-con
+                                                      {
+                                                        width: 284px;
+                                                        height: 219px;
+                                                        margin: 40px;}
+
+                                                      .js-con 
+                                                      {
+                                                        width: 284px;
+                                                        height: 139px;
+                                                        margin-top: 24px;}
 
                                                       
-                                                      .js-con > h4 {}
+                                                      .js-con > h4 
+                                                      {
+                                                        width: 284px;
+                                                        height: 36px;
+                                                        font-weight: 800;
+                                                        text-align: left;
+
+                                                        margin-bottom: 8px;
+                                                      }
 
                                                       
-                                                      .js-con > p {}
+                                                      .js-con > p 
+                                                      {
+                                                        width: 284px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: left;
+                                                        margin-bottom: 24px;
+                                                      }
 
                                                       
-                                                      .js-con >a {}
+                                                      .js-con >a 
+                                                      {
+                                                        width: 284px;
+                                                        height: 19px;
+                                                        font-weight: 600;
+                                                        color: black;
+                                                        margin-bottom: 40px;
+
+
+                                                      .lang-png
+                                                      {
+                                                        width: 56px;
+                                                        height: 56px;
+                                                      }
 
 
 
                                                       /* Structural language */
 
 
-                                                      .structure{}
+                                                      .structure
+                                                      {
+                                                        width: 1140px;
+                                                        height: 866px;
+                                                      }
 
 
 
                                                       /* My Next Target */
 
-                                                      .txt-structure{}
+                                                      .txt-structure
+                                                      {
+                                                        width: 946px;
+                                                        height: 113px;
+                                                        margin: 0px 97px 48px 97px;
+                                                      }
 
-                                                      .txt-structure > h3 {}
+                                                      .txt-structure > h3 
+                                                      {
+                                                        width: 852px;
+                                                        height: 37px;
+                                                        font-weight: 800;
+                                                        text-align: center;
+                                                        margin-bottom: 24px;
+                                                      }
 
-                                                      .txt-structure > p {}
+                                                      .txt-structure > p 
+                                                      {
+                                                        width: 852px;
+                                                        height: 52px;
+                                                        color: #7E8088;
+                                                        text-align: center;
+                                                       
+                                                      }
 
 
                                                       /* Reactjs nodejs mongodb */
@@ -479,6 +701,8 @@
 
 
                                                     /* ReactJS */
+
+                                                    .whole-reactjs{}
 
                                                     .reactjs{}
 
@@ -495,6 +719,8 @@
 
                                                                                             /* NodeJS */
 
+                                                                                            .whole-nodejs{}
+
                                                                                             .nodejs{}
 
                                                                                             .njs{}
@@ -510,6 +736,7 @@
 
 
                                                                 /* ReactJS */
+                                                     .whole-mongodb{}
 
 
                                                     .mongodb{}
