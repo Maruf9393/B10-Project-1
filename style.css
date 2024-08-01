@@ -409,7 +409,7 @@
                                                       {
                                                         width: 1140px;
                                                         height: 1437px;
-                                                        margin: 151px 150px 49px 150px;
+                                                        margin: 151px 150px 0px 150px;
                                                       }
 
 
@@ -420,7 +420,7 @@
                                                       {
                                                         width: 1140px;
                                                         height: 460px;
-                                                        margin: 151px 150px 111px 0px;
+                                                        
                                                         background-color: white;
                                                       }
 
@@ -428,7 +428,7 @@
 
                                                       .designer-txt 
                                                       {
-                                                        width: 852px;
+                                                        width: 946px;
                                                         height: 113px;
                                                         margin: 0px 97px 48px 97px;
                                                       }
@@ -644,7 +644,7 @@
                                                         height: 19px;
                                                         font-weight: 600;
                                                         color: black;
-                                                        margin-bottom: 40px;
+                                                        margin-bottom: 40px;}
 
 
                                                       .lang-png
@@ -662,6 +662,12 @@
                                                       {
                                                         width: 1140px;
                                                         height: 866px;
+                                                        background-color: white;
+                                                        margin: 111px 0px 49px 0px;
+                                                        display: ;
+                                                        flex-direction: ;
+                                                        flex-wrap: ;
+                                                        justify-content: ;
                                                       }
 
 
@@ -697,65 +703,202 @@
                                                       /* Reactjs nodejs mongodb */
 
 
-                                                    .programming{}
+                                                    .programming
+                                                    {
+                                                      width: 1140px;
+                                                      height: 705px;
+                                                      display: ;
+                                                      flex-direction: ;
+                                                      flex-wrap: ;
+                                                      justify-content: ;
+
+
+                                                    }
 
 
                                                     /* ReactJS */
 
-                                                    .whole-reactjs{}
+                                                    .whole-reactjs
+                                                    {
+                                                      width: 1140px;
+                                                      height: 219px;
+                                                      border: 0.4px #DBDCDE solid;
+                                                      border-radius: 16px;
+                                                      margin-bottom: 24px;
 
-                                                    .reactjs{}
+                                                    }
 
-                                                    .rjs{}
+                                                    .reactjs
+                                                    {
+                                                      width: 1060px;
+                                                      height: 139px;
+                                                      margin: 40px 40px 40px 24px ;
+                                                      display: flex;
+                                                      flex-wrap: wrap;
+                                                      justify-content: space-between;
 
-                                                    .rjs-con{}
 
-                                                    .rjs-con > h4 {}
+                                                    }
 
-                                                    .rjs-con > p{}
+                                                    /* img */
 
-                                                    .rjs-con > a{}
+                                                    .rjs 
+                                                    {
+                                                      width: 94.78px;
+                                                      height: 95px;
+                                                      
+                                                    }
+
+                                                    .rjs-con
+                                                    {
+                                                      width: 941.22px;
+                                                      height: 96px;
+                                                      
+                                                    }
+
+                                                    .rjs-con > h4 
+                                                    {
+                                                      width: 110px;
+                                                      height: 36px;
+                                                      font-weight: 800;
+                                                      text-align: left;
+                                                      margin-bottom: 8px;
+                                                    }
+
+                                                    .rjs-con > p
+                                                    {
+                                                      width: 941.22px;
+                                                      height: 52px;
+                                                      color: #80838B;
+                                                    }
+
+                                                    .rjs-con > a
+                                                    {
+                                                      width: 941.22px;
+                                                      height: 19px;
+                                                      font-weight: 700;
+                                                      color: #0D1321;
+                                                    }
 
 
                                                                                             /* NodeJS */
 
-                                                                                            .whole-nodejs{}
+                                                                                            .whole-nodejs
+                                                                                            {
+                                                                                              width: 1140px;
+                                                                                              height: 219px;
+                                                                                              border: 0.4px #DBDCDE solid;
+                                                                                              border-radius: 16px;
+                                                                                              margin-bottom: 24px;
+                                                                                            }
 
-                                                                                            .nodejs{}
-
-                                                                                            .njs{}
+                                                                                            .nodejs
+                                                                                            {
+                                                                                              width: 1060px;
+                                                                                              height: 139px;
+                                                                                              margin: 40px;
+                                                                                              display: flex;
+                                                                                              flex-wrap: wrap;
+                                                                                              justify-content: space-between;
                                         
-                                                                                            .njs-con{}
+                                                                                            }
+
+                                                                                            .njs
+                                                                                            {
+                                                                                              width: 143.51px;
+                                                                                              height: 88px;
+                                                                                            }
                                         
-                                                                                            .njs-con > h4 {}
+                                                                                            .njs-con
+                                                                                            {
+                                                                                              width: 892.49px;
+                                                                                              height: 139px;
+                                                                                              margin-bottom: 24px;
+                                                                                              
+                                                                                            }
                                         
-                                                                                            .njs-con > p{}
+                                                                                            .njs-con > h4 
+                                                                                            {
+                                                                                              width: 94px;
+                                                                                              height: 36px;
+                                                                                              font-weight: 800;
+                                                                                              text-align: left;
+                                                                                              margin-bottom: 8px;
+                                                                                            }
                                         
-                                                                                            .njs-con > a{}
+                                                                                            .njs-con > p
+                                                                                            {
+                                                                                              width: 892.49px;
+                                                                                              height: 52px;
+                                                                                              color: #80838B;
+                                                                                            }
+                                        
+                                                                                            .njs-con > a
+                                                                                            {
+                                                                                              width: 892.49px;
+                                                                                              height: 19px;
+                                                                                              font-weight: 700;
+                                                                                              color: #0D1321;
+                                                                                            }
 
 
 
-                                                                /* ReactJS */
-                                                     .whole-mongodb{}
+                                                                /* mongodb */
+                                                     .whole-mongodb
+                                                     {
+                                                      width: 1140px;
+                                                      height: 219px;
+                                                      border: 0.4px #DBDCDE solid;
+                                                      border-radius: 16px;
+                                                      margin-bottom: 49px;}
 
 
-                                                    .mongodb{}
+                                                    .mongodb
+                                                    {
+                                                      width: 1060px;
+                                                      height: 139px;
+                                                      margin: 40px  ;
+                                                      display: flex;
+                                                      flex-wrap: wrap;
+                                                      justify-content: space-between;
+                                                    }
 
-                                                    .mdb{}
+                                                    .mdb
+                                                    {
+                                                      width: 108px;
+                                                      height: 108px;
+                                                    }
 
-                                                    .mdb-con{}
+                                                    .mdb-con
+                                                    {
+                                                      width: 928px;
+                                                      height: 96px;
+                                                      margin-bottom: 24px;
+                                                    }
 
-                                                    .mdb-con > h4 {}
+                                                    .mdb-con > h4 
+                                                    {
+                                                      width: 110px;
+                                                      height: 36px;
+                                                      font-weight: 800;
+                                                      text-align: left;
+                                                      margin-bottom: 8px;
+                                                    }
 
-                                                    .mdb-con > p{}
+                                                    .mdb-con > p
+                                                    {
+                                                      width: 928px;
+                                                      height: 52px;
+                                                      color: #80838B;
+                                                    }
 
-                                                    .mdb-con > a{}
-
-
-
-
-
-
+                                                    .mdb-con > a
+                                                    {
+                                                      width: 928px;
+                                                      height: 19px;
+                                                      font-weight: 700;
+                                                      color: #0D1321;
+                                                    }
 
 
 
@@ -763,29 +906,100 @@
                                                     /*  page support container*/
 
 
-                                                    .support-container{}
+                                                    .support-container
+                                                    {
+                                                      background-image: url(assets/handshake.jpg);
+                                                    
+                                                      background-position: center;
+                                                     
+                                                      width:1140px ;
+                                                      height: 313px;
+                                                      border-radius: 16px;
+                                                      margin: 49px 150px 80px 150px;
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-content: center;
+                                                      flex-wrap: wrap;
+                                                     
+                                                     
+                                                    }
 
-                                                    .page-support{}
+                                                    .page-support
+                                                    {
+                                                      width: 1044px;
+                                                      height: 185px;
+                                                      margin: 64px 48px;
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      justify-content: center; 
+                                                     
+                                                      
+                                                    }
 
 
 
                                                     /* I need Support */
 
-                                                    .support-txt{} 
+                                                    .support-txt
+                                                    {
+                                                      width: 730px;
+                                                      height: 104px;
+                                                      margin: 0px 23px 24px 23px ;
+                                                    
+                                                      display: flex;
+                                                      justify-content: center;
+                                                      flex-wrap: wrap;
+                                                    } 
 
-                                                    .support-txt > h3{}
+                                                    .support-txt > h2
+                                                    {
+                                                      width: 292px;
+                                                      height: 36px;
+                                                      text-align: center;
+                                                      margin-bottom: 16px;
+                                                      color: white;
+                                                      font-weight: 700;
+                                                    }
 
-                                                    .support-txt > p{}
+                                                    .support-txt > p
+                                                    {
+                                                      width: 606px;
+                                                      height: 52px;
+                                                      color: #BEBBBD;
+                                                      text-align: center;
+                                                      
+                                                    }
 
 
                                                     /*  Input container */
 
 
-                                                    .input-txt{}
+                                                    .input-txt
+                                                    {
+                                                      width: 684px;
+                                                      height: 57px;
+                                                      display: flex;
+                                                      flex-direction: row;
+                                                      justify-content: space-between;
+                                                    
+                                                    }
 
-                                                    .inp{}
+                                                    .inp
+                                                    {
+                                                      width: 548px;
+                                                      height: 57px;
+                                                      border-radius: 8px;
+                                                      margin-right: 16px;
+                                                    }
 
-                                                    .inp-btn{}
+                                                    .inp-btn
+                                                    {
+                                                      width: 120px;
+                                                      height: 57px;
+                                                      border-radius: 8px;
+                                                      
+                                                      font-weight: 800;
+                                                    }
 
 
 
@@ -793,17 +1007,55 @@
                                                     /* footer container */
 
 
-                                                    .footer-part{}
+                                                    .footer-part
+                                                    {
+                                                      width: 1440px;
+                                                      height: 100px;
+                                                      background-color: #F8F8F8;
+                                                    }
 
-                                                    .last-part{}
+                                                    .last-part
+                                                    {
+                                                      width: 1140px;
+                                                      height: 36px;
+                                                      margin: 32px 150px;
+                                                      display: flex;
+                                                      justify-content: space-between;
+                                                    }
 
-                                                    .last-part > p {}
+                                                    .last-part > p 
+                                                    {
+                                                      width: 456px;
+                                                      height: 23px;
+                                                      font-weight: 700;
+                                                    }
 
-                                                    .fb{}
+                                                    .image-part
+                                                    {
+                                                      width: 157.01px;
+                                                      height: 36px;
+                                                    }
 
-                                                    .git{}
+                                                    .fb
+                                                    {
+                                                      width: 36px;
+                                                      height: 36px;
+                                                      margin-right: 10px;
+                                                    }
 
-                                                    .linkedin{}
+                                                    .git
+                                                    {
+                                                      width: 36px;
+                                                      height: 36px;
+                                                      margin-right: 10px;
+                                                    }
+
+                                                    .linkedin
+                                                    {
+                                                      width: 36px;
+                                                      height: 36px;
+                                                     
+                                                    }
 
 
                                         
